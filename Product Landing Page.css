@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+
+/*iPhone 11*/
+
+/*Portrait and Landscape*/
+@media only screen
+    and (min-device-width: 1125px)
+    and (max-device-width: 2436px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+
+    }
+
+    /* Portrait */
+@media only screen 
+and (min-device-width: 1125px) 
+and (max-device-width: 2436px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 1125px) 
+  and (max-device-width: 2436px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+/*iPhone 11 Pro MAX*/
+
+/*Lortrait and Landscape*/
+@media only screen
+    and (min-device-width: 1242px)
+    and (max-device-width: 2688px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+
+    }
+
+/*Portrait*/
+@media only screen
+    and (min-device-width: 1242px)
+    and (max-device-width: 2688px)
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (orientation: portrait)   {
+
+    }
+
+    /*Landscape*/
+    @media only screen
+    and (min-device-width: 1242px)
+    and (max-device-width: 2688px)
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (orientation: landscape)   {
+        
+    }
+
+    /*Samsung Galaxy S20 5G*/
+
+    /*Portrait and Landscape*/
+    @media only screen
+        and (min-device-width: 1440px)
+        and (max-device-width: 3200px)
+        and (-webkit-min-device-pixel-ratio: 2) {
+
+        }
+
+    /*Portrait*/
+    @media only screen
+        and (min-device-width: 1440px)
+        and (max-device-width: 3200px)
+        and (orientation: portrait) {
+
+        }
+
+    /*Landscape*/
+    @media only screen
+        and (min-device-width: 1440px)
+        and (max-device-width: 3200px)
+        and (orientation: landscape) {
+
+        }   
+        
+    /*Galaxy S20+ 5G*/
+
+    /*Portrait and Landscape*/
+    @media only screen 
+        and (min-device-width: 1440px)
+        and (max-device-width: 3200px)
+        and (-webkit-min-device-pixel-ratio: 2) {
+
+        }
+
+        /*Portrait*/
+        @media only screen 
+        and (min-device-width: 1440px)
+        and (max-device-width: 3200px)
+        and (orientation: portrait) {
+
+        }
+
+        /*Landscape*/
+        @media only screen 
+        and (min-device-width: 1440px)
+        and (max-device-width: 3200px)
+        and (orientation: landscape) {
+
+        }
+
+        /*Galaxy S20 ULTRA 5G*/
+
+        /*Portrait and Landscape*/
+        @media only screen 
+        and (min-device-width: 1440px)
+        and (max-device-width: 3200px)
+        and (-webkit-min-device-pixel-ratio: 2) {
+
+        }
+
+        /*Portrait*/
+        @media only screen 
+        and (min-device-width: 1440px)
+        and (max-device-width: 3200px)
+        and (orientation: portrait) {
+
+        }
+
+        /*Landscape*/
+        @media only screen 
+        and (min-device-width: 1440px)
+        and (max-device-width: 3200px)
+        and (orientation: landscape) {
+
+        }
+
+        /*Galaxy A20*/
+
+        /*Portrait and Landscape*/
+        @media only screen 
+        and (min-device-width: 720px)
+        and (max-device-width: 1560px)
+        and (-webkit-min-device-pixel-ratio: 2) {
+
+        }
+
+        /*Portrait*/
+        @media only screen 
+        and (min-device-width: 720px)
+        and (max-device-width: 1560px)
+        and (orientation: portrait) {
+
+        }
+
+        /*Landscape*/
+        @media only screen 
+        and (min-device-width: 720px)
+        and (max-device-width: 1560px)
+        and (orientation: landscape) {
+
+        }
+
+
+
+
+
+#header-container {
+  background-color: #f95a06;
+  height: 10%;
+  border: solid;
+  color: #FFFFFF;
+  border-width: 8px;
+}
+
+#header {
+  height: 170px;
+}
+
+#header-img {
+  width: 300px;
+  height: 175px;
+}
+
+#nav-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin-left: 1015px;
+}
+
+.nav-link {
+  padding-left: 10px;
+}
+
+h2 {
+  font-family: 'Lato', sans-serif;
+}
+
+#h2-1 {
+  display: flex;
+}
+
+#about-us {
+  display: flex;
+}
+
+
+#h2-2 {
+  display: flex;
+}
+
+#products {
+  display: flex;
+}
+
+#video {
+  margin-top: 20px;
+}
+
+#product-img {
+  width: 400px;
+  height: 320px;
+  padding-left: 250px;
+}
+
+#h2-3 {
+  display: flex;
+}
+
+#pricing {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+label {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+#email {
+  width: 202px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Lato', sans-serif;
+}
+
+#text-area {
+  width: 200px;
+  height: 150px;
+  margin-bottom: 10px;
+  margin-left: 46px;
+}
+
+#submit {
+  margin-bottom: 20px;
+  margin-left: 45px;
+}
+
+#footer {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
